@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>{% block title %} Modules{% endblock %}</title>
+        {% block stylesheet %}
+            <link reel="stylesheet" href="{{ asset('css/style.css') }}"/>
+        {% endblock %}
+    </head>
+    <body>
+        <h1>les modules de Tek-Up</h1>
+    {% block body %}    {% endblock %}
+    </body>
+</html>
